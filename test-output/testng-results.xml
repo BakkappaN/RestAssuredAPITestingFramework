@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T22:09:42 IST" name="Suite" finished-at="2023-03-26T22:09:58 IST" duration-ms="15816">
+    <groups>
+    </groups>
+    <test started-at="2023-03-26T22:09:42 IST" name="Test" finished-at="2023-03-26T22:09:58 IST" duration-ms="15816">
+      <class name="com.testautomation.apitesting.tests.EndToEndAPITest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testautomation.apitesting.tests.EndToEndAPITest@693fe6c9]" started-at="2023-03-26T22:09:42 IST" name="beforeMethod" finished-at="2023-03-26T22:09:43 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="e2eAPIRequest()[pri:0, instance:com.testautomation.apitesting.tests.EndToEndAPITest@693fe6c9]" started-at="2023-03-26T22:09:43 IST" name="e2eAPIRequest" finished-at="2023-03-26T22:09:58 IST" duration-ms="14978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e2eAPIRequest -->
+      </class> <!-- com.testautomation.apitesting.tests.EndToEndAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
