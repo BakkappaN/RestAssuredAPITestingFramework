@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testautomation.apitesting.tests.EndToEndAPITest">
+      <class name="com.testautomation.apitesting.tests.DataDrivenTestingUsingCsvFile">
         <methods>
-          <include name="e2eAPIRequest"/>
+          <include name="DataDrivenTesting"/>
         </methods>
-      </class> <!-- com.testautomation.apitesting.tests.EndToEndAPITest -->
+      </class> <!-- com.testautomation.apitesting.tests.DataDrivenTestingUsingCsvFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

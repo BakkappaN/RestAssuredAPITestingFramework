@@ -1,0 +1,27 @@
+<div>POST to https://restful-booker.herokuapp.com/auth</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;username&quot;: &quot;admin&quot;,
+    &quot;password&quot;: &quot;password123&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Accept: */*</div>
+        <div>Content-Type: application/json</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://restful-booker.herokuapp.com/auth&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;username&quot;: &quot;admin&quot;,
+    &quot;password&quot;: &quot;password123&quot;
+}&#39;
+</div>

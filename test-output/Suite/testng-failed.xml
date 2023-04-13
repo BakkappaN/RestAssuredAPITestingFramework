@@ -6,6 +6,7 @@
       <class name="com.testautomation.apitesting.tests.EndToEndAPITest">
         <methods>
           <include name="e2eAPIRequest"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.testautomation.apitesting.tests.EndToEndAPITest -->
