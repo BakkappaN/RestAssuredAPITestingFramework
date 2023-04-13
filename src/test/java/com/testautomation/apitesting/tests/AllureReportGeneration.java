@@ -202,7 +202,7 @@ public class AllureReportGeneration extends BaseTest {
 					.contentType(ContentType.JSON)
 					.baseUri("https://restful-booker.herokuapp.com/booking")
 				.when()
-					.get("/{bookingId}", 00000)
+					.get("/{bookingId}", bookingId)
 				.then()
 					.assertThat()
 					.statusCode(200);
