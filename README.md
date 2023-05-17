@@ -1,4 +1,4 @@
-### RestAssuredAPITestingFramework
+### RestAssured API Automation Testing Framework
 Rest Assured API Testing Framework Tutorial
 
 ### Rest Assured API Automation Testing Full Courses Playlist Link - 
