@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Testing Using CSV EXCEL AND JSON">
+	<suite-files>
+		<suite-file path="./suites/datadriventestingusingcsv.xml"></suite-file>
+		<suite-file path="./suites/datadriventestingusingexcel.xml"></suite-file>
+		<suite-file path="./suites/datadriventestingusingjson.xml"></suite-file>
+	</suite-files>
+</suite> <!-- Data Driven Testing -->

@@ -1,11 +1,15 @@
 package com.testautomation.apitesting.utils;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import com.testautomation.apitesting.listener.RestAssuredListener;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.http.Header;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
 public class RestAPIHelper {
 
@@ -33,5 +37,53 @@ public class RestAPIHelper {
 		return RestAssured.given().filter(new RestAssuredListener()).contentType(ContentType.JSON).header(header)
 				.baseUri(uri).when().delete().then().extract().response();
 	}
-
+	
+	public static String prepareAPIRequestDynamically(String request,String ... args) {
+		for (int i = 0; i < args.length; i++) {
+			request = request.replace("#"+i+"#", args[i]);
+		}
+		return request;
+	}
+	
+	public static Map getCookiesData() {
+		Map<String,String> cookie = new HashMap<String,String>();
+		cookie.put("skill1", "rest assured by testers talk");
+		cookie.put("skill2", "postman by testers talk");
+		cookie.put("skill3", "specflow by testers talk");
+		return cookie;
+	}
+	
+	public static RequestSpecification getBasicAuth() {
+		return RestAssured.given().auth().basic("postman", "password");
+	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

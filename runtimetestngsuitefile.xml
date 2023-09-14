@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Suite1" verbose="2">
+  <test thread-count="5" parallel="methods" name="TestName" verbose="2">
+    <classes>
+      <class name="com.testautomation.apitesting.tests.TestRetry">
+        <methods>
+          <include name="e2eAPIRequest3"/>
+        </methods>
+      </class> <!-- com.testautomation.apitesting.tests.TestRetry -->
+    </classes>
+  </test> <!-- TestName -->
+</suite> <!-- Suite1 -->
